@@ -1,0 +1,43 @@
+{
+	"name": "timed-map",
+	"version": "0.0.1",
+	"main": "./index.js",
+	"description": "The timed map represents one collection of iterable itens that the basic idea is to map a value to a unique key in such a way that you can retrieve that value at any point in time by using the key and gathering one timer for preserve and manipulate the collection.",
+	"author": "Paulo Lima <pflima92@gmail.com> (http://jspare.org)",
+	"directories": 
+	{
+		"example": "example",
+		"test": "test"
+	},
+
+	"scripts": 
+	{
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+
+	"license": "MIT",
+	"repository": 
+	{
+		"type": "git",
+		"url": "https://github.com/pflima92/timed-map"
+	},
+
+	"bugs": 
+	{
+		"url": "https://github.com/pflima92/timed-map/issues"
+	},
+
+	"keywords": 
+	[
+		"timed-map",
+		"map",
+		"timed",
+		"iterate",
+		"hash",
+		"timed-hashmap"
+	],
+	"devDependencies": 
+	{
+		"nodeunit ": ">=0.9.1"
+	}
+}
